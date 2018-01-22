@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Quantos dias tem esse mês</title>
+    <style>
+        html, body { margin: 0; padding: 0; }
+        html {  height: 100%; }
+        body { height: 100%; display: flex; align-items: center; justify-content: center; font-size: 200px; }
+    </style>
+</head>
+<body>
+    <script>document.body.textContent = (new Date(new Date().getFullYear(), new Date().getMonth()+1, -1).getDate()+1)</script>
+</body>
+</html>
